@@ -1,0 +1,135 @@
+h2 .logo{
+    color: orange;
+    text-decoration: none;
+    text-size: 80px;
+    text-align: center;
+
+}
+.navbar .logo a{
+    font-weight: bolder;
+    font-size: 34px;
+    text-decoration: none;
+    background-color: chocolate;
+
+}
+.navbar .logo a:hover{
+    color: black;
+}
+.navbar .list a{
+    text-decoration: none;
+}
+.navbar .list li{
+    list-style: none;
+}
+.navbar .list a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.navbar {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color:chocolate;
+    display: flex;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("isb.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .text-one{
+    font-size: 25px;
+    color: blue;
+}
+.home .text-two{
+    font-size: 75px;
+    color: chocolate;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: rosybrown;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: saddlebrown;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #e82743;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: darkred;
+    background-color: aqua;
+    color: black;
+}
+.about .word{
+    text-align: center;
+    text-decoration: #e82743;
+}
+.about{
+     width: 100%;
+    height: 100vh;
+    background-image: url("porshe.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.about .word .word-zero{
+    font-weight:900;
+    font-size: 40px;
+    color: darkred;
+}
+.button{
+    text-align: center;
+}
+.button button{
+     padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent
+}
+.button button:hover{
+     border-color: orange;
+    background-color: white;
+    color: black;
+}
+.about .word .word-one{
+    font-size: 20px;
+    color: darkblue;
+}
+.about .word .wor
+d-two{
+    font-size: 20px;
+    color: darkblue;
+}
